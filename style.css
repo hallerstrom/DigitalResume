@@ -1,0 +1,129 @@
+html, body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: beige;
+    color: darkslategray;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.head {
+    background-color: burlywood;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.head h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.head p {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+#center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#center img.picture {
+    border-radius: 40%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.right h2, .left h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.right .job, .left .job {
+    margin-bottom: 15px;
+}
+
+.right .job h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.right .job p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.footer {
+    background-color: burlywood;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+.footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 5px;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
